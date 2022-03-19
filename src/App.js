@@ -4,7 +4,11 @@ import StopLight from './components/StopLight'
 import Highway from './components/Highway'
 
 const App = () => {
-  const [lights, setLights] = useState({red: false, yellow: false, green: false})
+  const [lights, setLights] = useState({
+    red: false,
+    yellow: false,
+    green: false
+  })
 
   return (
     <div className="App">
